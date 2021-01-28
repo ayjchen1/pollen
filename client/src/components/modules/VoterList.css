@@ -1,0 +1,11 @@
+.VoterList-container
+{
+    margin-right: var(--m);
+    padding: var(--xs) var(--m);
+    overflow-wrap: break-word;
+    min-width: 200px;
+    max-width: 20vw;
+    /* margin-left: var(--xl); */
+    display: flex;
+    flex-direction: column;
+}

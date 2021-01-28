@@ -1,0 +1,133 @@
+.ClosePoll-container
+{
+    background-color: white;
+    
+    text-align: center;
+
+    border: var(--darkgrey) 1px solid;
+    border-radius: var(--xs);
+    font-size: small;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    color: black;
+
+    margin: 20px 5px 5px 5px;
+    padding: var(--m);
+    outline: none;
+}
+
+.ClosePoll-container:hover
+{
+    border: var(--blackgrey) 1px solid;
+}
+
+.ClosePoll-text
+{
+    margin: var(--s);
+}
+
+.ClosePoll-subbox
+{
+    padding: var(--s);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.ClosePoll-yes {
+  color: white;
+  font-size: 150;
+  border: var(--green) 2px solid;
+  border-radius: var(--s);
+  background: var(--green);
+  transition: color 0.1s, background 0.1s;
+  outline:none;
+  padding: var(--xs) var(--s);
+  margin: 0 var(--xs);
+}
+
+.ClosePoll-yes:hover {
+  border: var(--darkgreen) 2px solid;
+}
+
+.ClosePoll-no {
+  color: white;
+  font-size: 150;
+  border: var(--tag-red) 2px solid;
+  border-radius: var(--s);
+  background: var(--tag-red);
+  transition: color 0.1s, background 0.1s;
+  outline:none;
+  padding: var(--xs) var(--s);
+  margin: 0 var(--xs);
+}
+
+.ClosePoll-no:hover {
+  border: var(--red) 2px solid;
+}
+
+.ClosePoll-buttons
+{
+  padding: var(--xs) var(--xl);
+}
+
+.ClosePoll-input,
+.ClosePoll-submit,
+.ClosePoll-close
+{
+  font-size: 14px;
+  margin-top: var(--s);
+  padding: var(--s) var(--m);
+}
+
+.ClosePoll-input {
+  flex-grow: 1;
+  color: var(--darkbrown);
+  border: rgb(224, 187, 73) 2px solid;
+  border-radius: var(--s) 0 0 var(--s);
+  transition: box-shadow 0.1s;
+  background-color: #ffd966ff;
+}
+
+.ClosePoll-input:focus-within 
+{
+  outline: none;
+  box-shadow: 0 0 0 var(--xs) #ffd966ff;
+}
+
+.ClosePoll-submit {
+  color: #ffd966ff;
+  border: var(--deepgrey) 2px solid;
+  border-radius: 0 var(--s) var(--s) 0;
+  background-color: var(--deepgrey);
+  transition: color 0.1s, background 0.1s;
+  outline:none;
+}
+
+.ClosePoll-submit:hover {
+  border-color: var(--blackblack);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+  cursor: pointer;
+}
+
+.ClosePoll-close {
+  color: white;
+  border: var(--tag-red) 2px solid;
+  border-radius: var(--s);
+  background-color: var(--tag-red);
+  transition: color 0.1s, background 0.1s;
+  outline:none;
+  margin-left: var(--s);
+}
+
+.ClosePoll-close:hover {
+  border-color: var(--red);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+  cursor: pointer;
+}

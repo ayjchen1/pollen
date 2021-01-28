@@ -1,0 +1,42 @@
+.NavBar-container {
+    padding: var(--xs);
+    width: 100vw;
+    background-color: #fff2ccff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: var(--m);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+
+  .NavBar-title {
+    color: #3b3636;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: var(--m)
+  }
+
+  .NavBar-link,
+  .NavBar-link:visited {
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+  .NavBar-link:hover {
+    opacity: 0.8;
+  }
+
+  .NavBar-link.NavBar-login {
+    opacity: 1;
+  }
+
+  .NavBar-share {
+    margin-left: auto;
+  }
+
+  .NavBar-login {
+    margin-left: auto;
+    margin-right: var(--m);
+  }

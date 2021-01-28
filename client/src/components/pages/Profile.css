@@ -1,0 +1,83 @@
+.Profile-container {
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    grid-gap: 16px;
+    padding: var(--l);
+    margin: 0px;
+    /* height: 400px; */
+}
+
+.Profile-displayname
+{
+    margin: var(--s) 0 0 0;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.Profile-username
+{
+    margin: var(--xs) 0 var(--m) 0;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+.Profile-button
+{
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+
+    border: var(--darkgrey) 1px solid;
+    border-radius: var(--xs);
+    font-size: small;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
+    color: black;
+
+    margin: 2px 2px 2px 0px;
+    padding: 6px 14px;
+    outline: none;
+}
+
+.Profile-sidebuttons
+{
+    margin: var(--m) 0;
+}
+
+.Profile-subBot
+{
+    position: relative;
+    margin-left: 0%;
+    margin-top: 80%;
+}
+
+.Profile-button:hover
+{
+    border: var(--blackgrey) 1px solid;
+}
+
+.Profile-sidebar {
+    margin-left: var(--xl);
+    padding-top: var(--l);
+    padding-left: 0px;
+    padding-right: var(--xl);
+    text-align: center;
+    width: 150px;
+    overflow-wrap: break-word;
+    /* position: sticky; */
+    /* background-color: lightgray; */
+}
+
+.Profile-pfp {
+    border-radius: 50%;
+    /* background-color: aliceblue; */
+}
+
+.Profile-view
+{
+    padding-left: 42px;
+}
+
+.Profile-option:hover {
+    color: #525252;
+}
