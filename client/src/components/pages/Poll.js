@@ -251,7 +251,7 @@ class Poll extends Component
         if (!this.state.poll.open)
         {
           const pfpborder = {
-            background_color: white,
+            backgroundColor: "#ffffff",
             border: this.state.border_color + " 2px dashed", 
           };
 
