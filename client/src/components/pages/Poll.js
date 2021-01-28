@@ -10,6 +10,7 @@ import DeletePoll from "../modules/DeletePoll.js";
 import "./Poll.css";
 import "../../utilities.css";
 import { socket } from "../../client-socket.js";
+import { withRouter } from "react-router-dom";
 
 /*
     props:
@@ -250,6 +251,7 @@ class Poll extends Component
         if (!this.state.poll.open)
         {
           const pfpborder = {
+            background_color: white,
             border: this.state.border_color + " 2px dashed", 
           };
 
