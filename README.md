@@ -1,5 +1,9 @@
 # pollen
 
+<p align="center">
+  <img src ="https://github.com/ayjchen1/pollen/blob/main/server/public/images/title_bee.svg" height="300" width="600" />
+</p>
+
 Welcome to *pollen*, your new beehive of casual decision-making activity! From picking a movie or restaurant to brainstorming for a project, *pollen* is all about propagating ideas and choices.
 
 ## We're all allergic to this scenario...
@@ -24,6 +28,9 @@ Decision-making dread is the bane of your friend group's virtual hangouts, and y
 - Ability to add one or more tags to categorize your poll (e.g. food, travel, games)
 - Color-coordination by tag
 - Irresistably cute, bee-themed interface
+- Customizable bee-themed profile pictures!
+
+<img src="https://github.com/ayjchen1/pollen/blob/main/server/public/images/pfp/defaultpfp.svg" height="80" width="80"/> <img src="https://github.com/ayjchen1/pollen/blob/main/server/public/images/pfp/pfp2.svg" height="80" width="80"/> <img src="https://github.com/ayjchen1/pollen/blob/main/server/public/images/pfp/pfp3.svg" height="80" width="80"/> <img src="https://github.com/ayjchen1/pollen/blob/main/server/public/images/pfp/pfp4.svg" height="80" width="80"/> <img src="https://github.com/ayjchen1/pollen/blob/main/server/public/images/pfp/pfp5.svg" height="80" width="80"/> <img src="https://github.com/ayjchen1/pollen/blob/main/server/public/images/pfp/pfp6.svg" height="80" width="80"/>
 
 ## How to use
 To use *pollen*, login with your Google account from the landing page. From there, you can either vote on poll links from your friends or create your own!
